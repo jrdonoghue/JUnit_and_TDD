@@ -18,7 +18,8 @@ public class AssetVendor {
     }
 
   public static AssetVendor makeVendor() {
-      return null;
+      return new AssetVendor("Dummy", "Dummy Vendor",
+          AssetVendorRelationshipLevel.Partner, 0.0f);
   }
 
   public String getId() {
